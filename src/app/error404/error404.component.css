@@ -1,7 +1,7 @@
-body{
+.body-1 {
   margin: 0;
   padding: 20px;
-  background-color:#FFC900;
+  background-color:#FFC900 !important;
   font-family: arial;
   height: 700px
 }
