@@ -2,8 +2,8 @@ import { IUser, ICategory, IOperationType, IOperation } from './entities';
 
 export const mockUser: IUser = {
   name: 'John Doe',
-  email: 'john.doe@example.com',
-  password: 'hashedPassword123',
+  email: 'test@test.com',
+  password: 'test',
   imageUrl: 'https://example.com/john-doe-avatar.jpg'
 };
 
