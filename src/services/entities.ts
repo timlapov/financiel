@@ -14,10 +14,11 @@ export interface IOperationType {
 }
 
 export interface IOperation {
+  id: number;
   user: IUser;
   datetime: string;
   category: ICategory;
   name: string;
-  amount: string;
+  amount: number;
   type: IOperationType;
 }

@@ -9,7 +9,7 @@ export class LoginService {
 
   constructor() {  }
 
-  isAuthenticated: boolean = false;
+  isAuthenticated: boolean = true;
   user: IUser = mockUser;
 
   setIsAuthenticated(email: string, password: string) {
